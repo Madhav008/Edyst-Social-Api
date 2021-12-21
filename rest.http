@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8000/api/user/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "madhav@gmail.com",
+    "password": "123456"
+}
+
+###
+POST http://127.0.0.1:8000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Madhav",
+    "email": "madhav@gmail.com",
+    "password": "123456"
+}
